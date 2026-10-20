@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="𝘡𝘠𝘙𝘖 — premium music for your Discord server.">
+  <title>𝘡𝘠𝘙𝘖 — Premium Discord Music</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="𝘡𝘠𝘙𝘖 home">
+      <span class="brand-mark">Z</span><span>𝘡𝘠𝘙𝘖</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="navLinks">
+      <a href="#features">Features</a><a href="#commands">Commands</a><a href="#dashboard">Dashboard</a>
+      <a class="nav-cta" href="#invite">Add to Discord <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> DISCORD MUSIC EXPERIENCE</div>
+        <h1>YOUR SERVER.<br><span>YOUR SOUND.</span></h1>
+        <p class="hero-sub">Bring your community together with smooth playback, simple controls, and a cleaner music experience.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#invite">Add to Discord <span>↗</span></a>
+          <a class="button button-outline" href="#commands">Explore commands <span>↓</span></a>
+        </div>
+        <div class="hero-meta"><span class="status-dot"></span> Built for your listening sessions <i>·</i> Made for Discord</div>
+      </div>
+      <div class="hero-art" aria-label="𝘡𝘠𝘙𝘖 branding">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sound-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="hero-logo">ZYRO <span>PRIME</span></div>
+        <div class="hero-art-bottom"><span>PLAY YOUR WAY</span><span>EST. FOR THE VIBE</span></div>
+      </div>
+      <div class="hero-scroll">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Brand values"><div>PURE SOUND <b>✳</b> SIMPLE CONTROLS <b>✳</b> COMMUNITY VIBES <b>✳</b> ZYRO PRIME <b>✳</b> PURE SOUND <b>✳</b> SIMPLE CONTROLS <b>✳</b></div></section>
+
+    <section class="section features-section" id="features">
+      <div class="section-heading"><div><div class="eyebrow">01 / WHY 𝘡𝘠𝘙𝘖</div><h2>LESS SETUP.<br><span>MORE MUSIC.</span></h2></div><p>A minimalist experience designed to keep your server focused on what matters: the music and the people listening.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">♫</div><div class="card-number">01</div><h3>Music, made simple</h3><p>Use intuitive slash commands to start a session and manage playback.</p><span class="card-line"></span></article>
+        <article class="feature-card"><div class="feature-icon">◫</div><div class="card-number">02</div><h3>Queue control</h3><p>Keep track of what's next and skip through the queue with ease.</p><span class="card-line"></span></article>
+        <article class="feature-card"><div class="feature-icon">⌘</div><div class="card-number">03</div><h3>Made for communities</h3><p>Bring everyone into the same listening vibe in your Discord voice channel.</p><span class="card-line"></span></article>
+      </div>
+    </section>
+
+    <section class="section commands-section" id="commands">
+      <div class="section-heading"><div><div class="eyebrow">02 / COMMAND CENTER</div><h2>ONE COMMAND.<br><span>INSTANT VIBE.</span></h2></div><p>Example commands for your bot. Update this list to match the commands actually registered in your Discord application.</p></div>
+      <div class="command-panel">
+        <div class="panel-top"><div class="window-dots"><i></i><i></i><i></i></div><span>𝘡𝘠𝘙𝘖 / COMMANDS</span><span class="panel-live">REFERENCE</span></div>
+        <div class="command-list">
+          <div class="command-row"><code>/play <em>query</em></code><span>Play a song or search for music</span><button class="copy-command" data-copy="/play">COPY</button></div>
+          <div class="command-row"><code>/pause</code><span>Pause the current track</span><button class="copy-command" data-copy="/pause">COPY</button></div>
+          <div class="command-row"><code>/resume</code><span>Continue playback</span><button class="copy-command" data-copy="/resume">COPY</button></div>
+          <div class="command-row"><code>/skip</code><span>Skip to the next track</span><button class="copy-command" data-copy="/skip">COPY</button></div>
+          <div class="command-row"><code>/queue</code><span>View upcoming tracks</span><button class="copy-command" data-copy="/queue">COPY</button></div>
+          <div class="command-row"><code>/nowplaying</code><span>See what's playing now</span><button class="copy-command" data-copy="/nowplaying">COPY</button></div>
+        </div>
+        <div class="panel-foot">TIP: Command names may differ depending on your bot configuration.</div>
+      </div>
+    </section>
+
+    <section class="section dashboard-section" id="dashboard">
+      <div class="section-heading"><div><div class="eyebrow">03 / CONTROL ROOM</div><h2>YOUR MUSIC.<br><span>YOUR RULES.</span></h2></div><p>Preview the dashboard interface below. It is a front-end demo until connected to a secure bot API and Discord sign-in.</p></div>
+      <div class="dashboard">
+        <aside class="dash-sidebar">
+          <div class="dash-brand"><span class="brand-mark small">Z</span><div>𝘡𝘠𝘙𝘖<small>CONTROL ROOM</small></div></div>
+          <div class="dash-label">WORKSPACE</div>
+          <button class="dash-nav active" data-tab="overview"><span>◈</span> Overview</button>
+          <button class="dash-nav" data-tab="music"><span>♫</span> Music controls</button>
+          <button class="dash-nav" data-tab="settings"><span>⚙</span> Settings</button>
+          <div class="dash-sidebar-bottom"><span class="status-dot"></span> Demo interface <small>Not connected to bot</small></div>
+        </aside>
+        <div class="dash-main">
+          <div class="dash-top"><div><div class="eyebrow">𝘡𝘠𝘙𝘖 / DASHBOARD</div><h3 id="dashTitle">Overview</h3></div><span class="demo-badge">DEMO MODE</span></div>
+          <div class="dash-content" id="dashContent">
+            <div class="welcome-card"><div><span class="welcome-kicker">WELCOME TO THE CONTROL ROOM</span><h4>Keep the vibe<br>under control.</h4><p>This is a visual preview of your future dashboard.</p></div><div class="welcome-symbol">Z<span>+</span></div></div>
+            <div class="stats-grid"><div class="stat-card"><span>BOT STATUS</span><strong><i class="status-dot"></i> Preview</strong><small>Live status needs API</small></div><div class="stat-card"><span>ACTIVE SERVER</span><strong>Demo server</strong><small>Discord OAuth required</small></div><div class="stat-card"><span>PLAYER</span><strong>Not connected</strong><small>Connect your music backend</small></div></div>
+            <div class="dash-box"><div class="dash-box-title">QUICK ACTIONS <span>INTERACTIVE PREVIEW</span></div><div class="quick-actions"><button class="quick-action" data-action="Play">▶ <span>Play</span></button><button class="quick-action" data-action="Pause">Ⅱ <span>Pause</span></button><button class="quick-action" data-action="Skip">» <span>Skip</span></button><button class="quick-action" data-action="Queue">≡ <span>Queue</span></button></div><p class="dash-note" id="actionMessage">These buttons preview the interface; they don't control a live bot yet.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section invite-section" id="invite">
+      <div class="invite-box"><div class="eyebrow">04 / READY WHEN YOU ARE</div><h2>SET THE MOOD.<br><span>PRESS PLAY.</span></h2><p>Add 𝘡𝘠𝘙𝘖 to your server and bring your community's soundtrack together.</p><div class="hero-actions"><a class="button button-light" id="inviteButton" href="#" target="_blank" rel="noopener">Add to Discord ↗</a><a class="button button-outline" id="supportButton" href="#" target="_blank" rel="noopener">Join support server ↗</a><a class="button button-outline" id="guildButton" href="#" target="_blank" rel="noopener">My Discord Guild ↗</a></div><div class="config-warning" id="linkWarning">Setup needed: add your Discord links in <code>config.js</code>.</div></div>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">Z</span><span>𝘡𝘠𝘙𝘖</span></a><span>PURE SOUND. CLEAN DESIGN.</span><span>© <span id="year"></span> 𝘡𝘠𝘙𝘖</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
